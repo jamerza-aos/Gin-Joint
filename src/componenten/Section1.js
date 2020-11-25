@@ -4,7 +4,7 @@ import MainVariable from '../data/MAINDATA.json'
 
 
 const Due = () => {
-    console.log(MainVariable);
+    /* console.log(MainVariable); */
     return (
         <article className="jizz">
         <div className="covid">
@@ -12,14 +12,17 @@ const Due = () => {
     </div>
         <section className="ja">
            
-            {MainVariable.map(user => <Card
+            {MainVariable.map(singleData => <Card
                 /* userImg={user.avatar} */
-                userFoto={user.foto}
-                userName={user.name}
-                userDay={user.day}
-                userUhr={user.uhr}
-                userText={user.text}
-                key={user.id}
+               
+                userName={singleData.name}
+                userDay={singleData.day}
+                userUhr={singleData.uhr}
+                userText={singleData.text}
+                userImg= {singleData.image}
+                key={singleData.id}
+
+               
             />)}
         </section>
         </article>
@@ -36,36 +39,26 @@ export default Due;
 
 
 
+/* import bandData from "../data/bands.json"
+import Card from "./Card"
 
-       /*  <section id="first-section">
-
-             <Card
-                nameKey="Finn"
-                alterKey="22"
-                
-            />
-            <Card
-                nameKey="Aos"
-                alterKey="23"
-                
-            />
-            <Card
-                nameKey="Francis"
-                alterKey="21"
-                
-            /> 
+const Jazz = () => {
+    return ( 
+        <section id="jazz">
+            <p id="covid">Due to COVID-19 and the temporary closing of Bathtub Gin, our nightly entertainment is currently on pause. Stay tuned for updates on our reopening date and new events, coming soon!</p>
+        <div id="cards">
+        {bandData.map(singleData =>  <Card 
+            bandGenre = {singleData.genre}
+            bandDate = {singleData.date}
+            bandTime = {singleData.time}
+            bandDescription = {singleData.description}
+            bandImg = {singleData.image}
+            key = {singleData.id}
             
-            
-            {MainVariable.map((singleMain, index) => <Card
-                name={singleMain.name}
-                day={singleMain.day}
-                uhr={singleMain.uhr}
-                text={singleMain.text}
-                
-                key={index}
-            />)}
+        />)}
+        </div>
         </section>
-    );
+     );
 }
-
-export default Due; */
+ 
+export default Jazz; */

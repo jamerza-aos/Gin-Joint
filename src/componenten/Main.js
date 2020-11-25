@@ -1,3 +1,5 @@
+
+
 const Thestory =() => {
     return(
         <section className="thestory">
@@ -10,9 +12,7 @@ const Thestory =() => {
                     <li><button className="four" >Read More</button> </li>
                </ul>
            </div>
-
-
-           <img src = '/bar2 1.jpg' alt="" /> 
+           <div className="thestorybild"></div> 
             </section>
     );
 }

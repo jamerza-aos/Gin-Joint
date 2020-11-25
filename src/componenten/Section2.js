@@ -1,10 +1,4 @@
-
-
-
-
-
 const Cocktail = () => {
-
     return (
        
         <section className="Cocktail">
@@ -16,9 +10,7 @@ const Cocktail = () => {
                     <li><button className="see" >SEE MENUS</button> </li>
                </ul>
            </div>
-           
-
-            <img src = '/R3.jpg ' alt="" /> 
+           <div className="thestorybild2"></div> 
             </section>
     );
    
