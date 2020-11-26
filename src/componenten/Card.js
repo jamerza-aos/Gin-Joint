@@ -1,19 +1,18 @@
 const Card = (props) => {
-    // console.log(props);
-    return (
-        
-        
-            
+    console.log(props.userImage);
+    return (     
         <section className="every">
-             <div className="image" style={{backgroundImage:`url(${props.userImage})`}}>
-                <h3>{props.userName}</h3>
-            </div>
-            <div>
-                <h4 className="date">{props.userDay}</h4>
+            <div className="griid1">
+            <div className="griid">
+    <h3 style={{color:"white", background:`url(${props.userImage})`}}>{props.userName}<br/> {props.userName2}</h3>
+               
+            
+                <h4 className="date2">{props.userDay}</h4>
                 <p className="time">{props.userUhr}</p>
                 <p className="textt">{props.userText}</p>
-            </div>
-      
+                </div>
+                </div>
+            
         </section>
         
     );

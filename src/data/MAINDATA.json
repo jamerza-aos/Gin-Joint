@@ -3,29 +3,33 @@
 [
     {
         "id":1,
-        "name":"Jazz n' Jive",
+        "name":"Jazz n'",
+        "name2":"Jive",
+
         "day":"EVRY MONDAY",
         "uhr":"9 :11PM",
         "text" : "Jazz up your Monday nights with intimate and lively performances by a rotating selection of renowned bands." ,
-        "image" : " ./img/Rectangle .jpg" 
+        "image" : "./assets/img/Rectangle2.jpg" 
     },
 
     {
         "id":2,
-        "name":"Burlesque After Dark",
+        "name":"Burlesque ",
+        "name2":"After Dark",
         "day":"EVERY TUESDAY & SUNDAY",
         "uhr":"9 : 12",
         "text" : "Enter the world of burlesque and lose yourself in enticing witty performances, exceptional cocktails, and lively music." ,
-        "image" : "./img/Rectangle2.jpg"
+        "image" : "./assets/img/Rectangle1.jpg" 
     },
 
     {
         "id":3,
-        "name":"DJs & Dance Tracks",
+        "name":"DJs & ",
+        "name2":"Dance Tracks",
         "day":"EVERY THURSDAY, FRIDAY & SATURDAY NIGHT",
         "uhr":"FROM 9PM : 10PM",
         "text" : "If you're looking for a packed crowd, come when the party is bigger, the pace is faster, and the morals are looser." ,
-        "image" : " ./img/1.jpg"
+        "image" : "./assets/img/Rectangle.jpg" 
     }
     
 ]

@@ -5,19 +5,30 @@ import Thestory from './componenten/Main'
 import Due from './componenten/Section1'
 import Cocktail from './componenten/Section2'
 import Bathtub from './componenten/Section3'
+import Contact from './componenten/Contact'
+import Footer from './componenten/Footer'
+import Shopsec from './componenten/Shopsec'
+import Comming from './componenten/Comming'
 
 
 function App() {
   return (
+      
     <main>
       <Classic />
       <Thestory />
       <Due />
-      <Cocktail />
+      <Cocktail /> 
       <Bathtub />
+      <Contact /> 
+      <Footer />
+      <Shopsec />
+      <Comming />
     </main>
-      
 
+    
+       
+   
        
       
     
