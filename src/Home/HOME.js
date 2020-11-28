@@ -6,26 +6,17 @@ import Bathtub from './Section3'
 import Contact from '../componenten/Contact'
 import Footer from '../componenten/Footer'
 
-
-
 const HOME =() => {
     return(
         <article>
-        <Classic />
-        <Thestory />
-        <Due />
-        <Cocktail />
-        <Bathtub />
-        <Contact />
-        <Footer />
-        
-      
-
-
-
-
+                <Classic />
+                <Thestory />
+                <Due />
+                <Cocktail />
+                <Bathtub />
+                <Contact />
+                <Footer />
         </article>
-            
         
     )
 }

@@ -1,4 +1,5 @@
 import './App.css';
+import './App2.css';
 import {
     BrowserRouter as Router,
     Switch,
@@ -13,7 +14,7 @@ import SHOP from './Shop/SHOP'
 function App() {
   return ( 
       <Router>
-       <Navigtion /> 
+       <Navigtion />  
       <Switch>
        <Route path="/Home/HOME" exact>  <HOME/> </Route> 
       <Route path = "/Entertainment"> </Route>
