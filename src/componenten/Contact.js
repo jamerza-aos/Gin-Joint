@@ -2,7 +2,7 @@ const Contact = () => {
     return ( 
     <section className="findus">
         <div className="findus_img">
-            <img src="./assets/img/logoo.png" alt=""/>
+            <img src="../assets/img/logoo.png" alt=""/>
         </div>
 
         <div className="contact">

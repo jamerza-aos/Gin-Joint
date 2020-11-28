@@ -3,7 +3,7 @@ const Bathtub = () => {
     return (
         <section className="Fünfte">
             <div className="trick">
-            <img src="./assets/img/instgram.png" alt=""/>
+            <img src="../assets/img/instgram.png" alt=""/>
                 <div className="gin">
 
                 </div>

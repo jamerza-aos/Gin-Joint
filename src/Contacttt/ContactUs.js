@@ -13,7 +13,7 @@ const ContactUs = () => {
             </div>
 
             <div className="barimg">
-                <img src="./assets/img/Bar.jpg" alt=""/>
+                <img src="../assets/img/Bar.jpg" alt=""/>
             </div>
     </section>
      );
