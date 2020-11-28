@@ -9,12 +9,23 @@ import Contact from './componenten/Contact'
 import Footer from './componenten/Footer'
 import Shopsec from './componenten/Shopsec'
 import Comming from './componenten/Comming'
+import ContactUs from './componenten/ContactUs'
+import Avenue from './componenten/132'
+import Gettoush from './componenten/GetInToush'
+//import Navigtion from './componenten/Navigation'
+/* import {
+    BrowserRouter as Router,
+    Switch,
+    Route,
+    //Link
+  } from "react-router-dom";
+  import Navigtion from './componenten/Navigation' */
 
 
 function App() {
   return (
       
-    <main>
+    <main className="border">
       <Classic />
       <Thestory />
       <Due />
@@ -24,15 +35,23 @@ function App() {
       <Footer />
       <Shopsec />
       <Comming />
-    </main>
+      <ContactUs />
+      <Avenue />
+      <Gettoush />
 
-    
-       
-   
-       
-      
-    
-  );
+
+      {/* <Router>
+       <Navigtion /> 
+      <Switch>
+      <Route path="/Home" exact >  <Home/> </Route>
+      <Route path = "/Entertainment" > </Route>
+      <Route path = "/Shop"  > <Shop/> </Route>
+      <Route path = "/Events"  >   </Route>
+      <Route path = "/Contact"   >  <Contact/></Route>
+      </Switch>
+    </Router> */}
+    </main>
+  )
 }
 
 export default App;
